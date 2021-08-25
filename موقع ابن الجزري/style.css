@@ -1,0 +1,120 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------------------------------------*/
+body{
+    background-color: rgb(80, 80, 80);
+}
+/*-------------------------------------------------------------*/
+
+/*---------------------- header starts ------------------------*/
+header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 208, 0), rgba(126, 82, 0, 0.863));
+}
+/*---------------------- header ends ------------------------*/
+
+/*----------------------logo starts -------------------------*/
+#logobox{
+   float: right;
+   width: 8.5%;
+}
+/*---------------------- logo ends ----------------------------*/
+
+/*---------------------- name starts --------------------------*/
+#name{
+    float: right;
+    padding: top 1px;
+}
+/*------------------------ name ends --------------------------*/
+
+/*----------------------- lists starts -------------------------*/
+.menu > ul{
+    margin: 5px;
+    padding: 0;
+    padding-left: 80px;
+    float: left;
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    float: right;
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 30px 30px ;
+    height: 35px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu-item:hover{
+    color:rgb(255, 255, 255);
+}
+/*----------------------- lists ends -------------------------*/
+
+/*-------------------- STYLING SUB Starts --------------------*/
+
+.sub-content{
+    position: absolute;
+    top: 100px;
+    overflow: hidden;
+    background-color: #c0851f;
+    text-align: center;
+    max-height: 0;
+}
+
+.sub-content a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.sub-drop{
+    padding: 0;
+}
+
+.sub-drop ul{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.sub-drop ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.sub-drop ul li:hover {
+    background-color: rgb(226, 140, 1);
+}
+
+/*---------------------- STYLING SUB Ends --------------------*/
+
+/*------------------ STYLING SUB Controling starts ------------------*/
+
+.menu ul li:hover  .sub-content{
+    max-height: 400px;
+    overflow:  hidden;
+    transition: max-height 0.2s ease-in;
+    -webkit-transition: max-height 0.2s ease-in;
+    -moz-transition: max-height 0.2s ease-in;
+}
+
+/*------------------ STYLING SUB Controling Ends ------------------*/
+
+/*----------------------- Slide Show Starts------------------------*/
+
+
+/*----------------------- Slide Show Ends ------------------------*/
+
+
